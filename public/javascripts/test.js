@@ -9,7 +9,7 @@ describe('Problem 1', function () {
 
   describe('add', function () {
     it('should add two numbers', function () {
-      expect(add(2,3)).to.equal(6);
+      expect(add(2,3)).to.equal(5);
     });
   });
 });
