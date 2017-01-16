@@ -239,3 +239,93 @@ describe('Problem 10', function () {
     });
   });
 });
+
+describe('Problem 11', function () {
+  it('should define variable emtpyObject', function () {
+    expect(function () {
+      emptyObject;
+    }).to.not.throw(ReferenceError);
+  });
+
+  it('should be an empty object', function () {
+    expect(emptyObject).to.eql({});
+  });
+});
+
+
+describe('Problem 12', function () {
+  it('should define the correct name', function () {
+    expect(name).to.eql({
+      first: 'jane',
+      last:  'doe'
+    })
+  });
+});
+
+describe('Problem 13', function () {
+  it('should define the correct birth', function () {
+    expect(birth).to.eql({
+      year: 1980,
+      month: 11,
+      day: 25
+    })
+  });
+});
+
+describe('Problem 14', function () {
+  it('should define the correct address', function () {
+    expect(address).to.eql({
+      street:      '315 Hudson street',
+      zip:         '10013',
+      city:        'New York City',
+      subdivision: 'New York'
+    })
+  });
+});
+
+
+describe('Problem 15', function () {
+  it('should define the correct person', function () {
+    expect(person).to.eql({
+      name: {
+        first: 'jane',
+        last:  'doe'
+      },
+      birth: {
+        year:  1980,
+        month: 11,
+        day:   25
+      },
+      address: {
+        street:      '315 Hudson street',
+        zip:         '10013',
+        city:        'New York City',
+        subdivision: 'New York'
+      }
+    })
+  });
+});
+
+describe('Problem 16', function () {
+  it('should define the correct firstName', function () {
+    expect(firstName).to.equal(name.first);
+  });
+});
+
+describe('Problem 17', function () {
+  it('should define the correct birthYear', function () {
+    expect(birthYear).to.equal(birth.year);
+  });
+});
+
+describe('Problem 18', function () {
+  it('should define the correct personCity', function () {
+    expect(personCity).to.equal(person.address.city);
+  });
+});
+
+describe('Problem 19', function () {
+  it('should three friends in userInfo', function () {
+    expect(userInfo.friends.length).to.eql(3);
+  });
+});

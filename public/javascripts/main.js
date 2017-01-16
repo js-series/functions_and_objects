@@ -49,3 +49,35 @@
 // 10.) Write a function called 'timeRemaining' with three params: 'waitingCustomers',
 // a 'name', and 'seatedCount'. Count the number of customers before the given 'name'
 // and use the 'seatedCount' to determine the 'waitTime'.
+
+
+/*
+ Object Exercises
+*/
+
+// 11.) Create a variable called 'emptyObject' that is an empty object.
+
+
+// 12.) Create a variable 'name' with properties first and last set to 'jane' and 'doe'.
+
+
+// 13.) Create a variable called 'birth' with properties 'year', 'month', 'day'
+// set to 1980, 11, and 25 respectively.
+
+// 14.) Create a variable called 'address' with properties 'street', 'zip', 'city',
+//  and 'subdivision' set to '315 Hudson street', '10013', 'New York City', 'New York'.
+
+// 15.) Create a variable called 'person' with properties name, birth, and address
+// whose values are the ones defined above.
+
+// 16.) Create a variable called firstName whose value is the value of first
+// property in name.
+
+// 17.) Create a variable called birthYear whose value is the value of year
+// property in birth.
+
+// 18.) Create a variable called personCity whose value is the value of the
+// value of nested properties address and city in person.
+
+// 19.) Create a variable called 'userInfo' with a friends property that is an
+// array of three names.
