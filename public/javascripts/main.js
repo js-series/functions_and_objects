@@ -4,7 +4,7 @@
 
 // 1. Write a function called 'add' that has two Number params and adds them together.
 
-// 2. Write a function called 'ableToDrink' that has an 'age' param and
+// 2. Write a function called 'allowedToDrink' that has an 'age' param and
 //  returns false if age is less than 21 and true otherwise.
 
 // 3. Write a function called 'nextCustomer' that has a 'waitingCustomers' param
