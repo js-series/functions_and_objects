@@ -56,7 +56,7 @@ describe('Problem 3', function () {
       var waiting = ['john', 'jane', 'bob'];
 
       expect(nextCustomer(['john', 'jane', 'bob'])).to.equal('john');
-      expect(waiting).to.equal(['john', 'jane', 'bob']);
+      expect(waiting).to.eql(['john', 'jane', 'bob']);
     })
   });
 });
