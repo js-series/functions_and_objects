@@ -254,8 +254,8 @@ describe('Problem 11', function () {
 
 
 describe('Problem 12', function () {
-  it('should define the correct name', function () {
-    expect(name).to.eql({
+  it('should define the correct personName', function () {
+    expect(personName).to.eql({
       first: 'jane',
       last:  'doe'
     })
@@ -308,7 +308,7 @@ describe('Problem 15', function () {
 
 describe('Problem 16', function () {
   it('should define the correct firstName', function () {
-    expect(firstName).to.equal(name.first);
+    expect(firstName).to.equal(personName.first);
   });
 });
 

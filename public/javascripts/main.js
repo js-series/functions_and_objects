@@ -58,7 +58,7 @@
 // 11.) Create a variable called 'emptyObject' that is an empty object.
 
 
-// 12.) Create a variable 'name' with properties first and last set to 'jane' and 'doe'.
+// 12.) Create a variable 'personName' with properties first and last set to 'jane' and 'doe'.
 
 
 // 13.) Create a variable called 'birth' with properties 'year', 'month', 'day'
@@ -67,11 +67,11 @@
 // 14.) Create a variable called 'address' with properties 'street', 'zip', 'city',
 //  and 'subdivision' set to '315 Hudson street', '10013', 'New York City', 'New York'.
 
-// 15.) Create a variable called 'person' with properties name, birth, and address
+// 15.) Create a variable called 'person' with properties personName, birth, and address
 // whose values are the ones defined above.
 
 // 16.) Create a variable called firstName whose value is the value of first
-// property in name.
+// property in personName.
 
 // 17.) Create a variable called birthYear whose value is the value of year
 // property in birth.
